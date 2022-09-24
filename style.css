@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Aguafina+Script&display=swap");
+body {
+  font-family: "Aboreto", cursive;
+  background-color: rgb(175, 172, 172);
+}
+
+header {
+  display: inline;
+  flex-direction: column;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: "Aguafina Script", cursive;
+  font-size: 2.2em;
+}
+
+.input {
+  resize: none;
+  width: 850px;
+  border-radius: 7px;
+  outline: none;
+  box-shadow: 10px 10px 5px 0px rgba(3, 56, 158, 0.2);
+  box-sizing: border-box;
+}
+
+.btnReset {
+  display: block;
+  background-color: rgb(255, 52, 164);
+  color: white;
+  width: 100%;
+}
+.input::placeholder {
+  font-family: "Aguafina Script", cursive;
+  font-size: 1.5em;
+}
+
+.counter {
+  color: red;
+}
+
+.thisCounter {
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 800px) {
+  .input {
+    width: 400px;
+    height: 100px;
+    margin-top: -6rem;
+  }
+  header {
+    font-size: 1.5em;
+  }
+}
